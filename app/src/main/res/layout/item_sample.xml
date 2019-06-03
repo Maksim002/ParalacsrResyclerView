@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.github.abdularis.piv.VerticalScrollParallaxImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tView"
+        android:gravity="center"
+        android:textSize="35sp"
+        tools:text="Sample text"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#8000"
+        android:alpha=".5"
+        />
+
+</RelativeLayout>
